@@ -1,0 +1,11 @@
+def main():
+    resp = int(input("What is the Answer to the Great Question of Life, the Universe, and Everything? "))
+    resp = resp.strip().lower()
+    if resp == 42:
+        print("Yes")
+    if resp == "forty-two" or resp == "forty two":
+        print("Yes")
+    else:
+        print("No")
+
+main()
