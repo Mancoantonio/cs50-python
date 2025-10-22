@@ -22,4 +22,4 @@ def convert(time):
     return hours + minutes
 
 if __name__ == "__main__":
-main()
+    main()
