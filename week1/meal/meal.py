@@ -21,5 +21,6 @@ def convert(time):
     minutes = minutes/60
     return hours + minutes
 
-if __name__ == "__main__":
     main()
+    convert()
+
