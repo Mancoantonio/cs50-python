@@ -21,8 +21,7 @@ def is_valid(s):
             flag_num = True
         elif flag_num:
             return False
-        else:
-            return True   #terminamos el fkn bucle
+
 
 
 
