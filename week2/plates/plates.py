@@ -19,9 +19,9 @@ def is_valid(s):
                 if i == "0":   # no puede ser cero
                     return False
             flag_num = True
-        if flag_num:
+        if flag_num: #ya apareció un número, no más letras
             return False
-        if not i.isalnum():
+        if not i.isalnum(): #revisa el caracter alfanumérico
             return False
 
 
