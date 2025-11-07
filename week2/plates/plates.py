@@ -15,16 +15,14 @@ def is_valid(s):
     flag_num = False    #crear la variable como bandera booleana
     for i in s: #creamos loop para recorrer (s)
         if i.isdigit():    #preguntamos si i es un digito
-            if flag_num==False:  #primer numero encontrado
+            if flag_num == False:  #primer numero encontrado
                 if i == "0":   # no puede ser cero
                     return False
             flag_num = True
+        elif flag_num:
+            return False
         else:
-            if flag_num:
-                return False
-
-return True   #terminamos el fkn bucle
-
+            return True   #terminamos el fkn bucle
 
 
 
