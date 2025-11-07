@@ -21,7 +21,7 @@ def is_valid(s):
             flag_num = True
         else:
             if flag_num:
-                return True
+                return False
 
 
 
