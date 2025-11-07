@@ -12,7 +12,9 @@ def is_valid(s):
 
     if not ((s[0]).isalpha() and s[1].isalpha()): #si NO son letras los dos primeros caracteres de la patente
         return False
+    
     flag_num = False    #crear la variable como bandera booleana
+
     for i in s: #creamos loop para recorrer (s)
         if i.isdigit():    #preguntamos si i es un digito
             if flag_num == False:  #primer numero encontrado
