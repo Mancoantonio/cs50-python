@@ -23,6 +23,8 @@ def is_valid(s):
             if flag_num:
                 return False
 
+return True   #terminamos el fkn bucle
+
 
 
 
