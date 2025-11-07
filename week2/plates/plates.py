@@ -18,7 +18,7 @@ def is_valid(s):
             if flag_num==False:  #primer numero encontrado
                 if i == "0":   # no puede ser cero
                     return False
-            flag_num==True
+            flag_num = True
         else:
             if flag_num:
                 return True
