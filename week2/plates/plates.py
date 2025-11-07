@@ -19,7 +19,9 @@ def is_valid(s):
                 if i == "0":   # no puede ser cero
                     return False
             flag_num = True
-        elif flag_num:
+        if flag_num:
+            return False
+        if not i.isalnum():
             return False
 
 
