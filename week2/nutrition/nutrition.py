@@ -32,6 +32,6 @@ def main():
     if fruta in frutasfda:
         print("Calories:", frutasfda[fruta])
     else:
-        "Fruit not found"      #por si no coincide la fruta ingresada
+        print("Fruit not found")      #por si no coincide la fruta ingresada
 
 main()
