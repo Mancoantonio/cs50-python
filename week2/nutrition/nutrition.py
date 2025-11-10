@@ -1,0 +1,37 @@
+def main():
+
+    fruta = input("Write the fruit you want to know calories of:")
+    fruta=fruta.lower() #bajamos todo a minúscula
+
+#creamos diccionario
+
+    frutasfda = {
+        "apple": "130",
+        "avocado": "50",
+        "banana": "110",
+        "cantaloupe": "50",
+        "grapefruit": "60",
+        "grapes": "90",
+        "honeydew melon": "50",
+        "kiwifruit": "90",
+        "lemon": "15",
+        "lime": "20",
+        "nectarine": "60",
+        "orange": "80",
+        "peach": "60",
+        "pear": "100",
+        "pineapple": "50",
+        "plums": "70",
+        "strawberries": "50",
+        "sweet cherries": "100",
+        "tangerine": "50",
+        "watermelon": "80",
+
+    }
+#chequear si la fruta ingresada está dentro del diccionario creado
+    if fruta in frutasfda:
+        print("Calories:", frutasfda[fruta])
+    else:
+        "Fruit not found"      #por si no coincide la fruta ingresada
+
+main()
