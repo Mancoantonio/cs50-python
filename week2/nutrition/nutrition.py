@@ -31,7 +31,5 @@ def main():
 #chequear si la fruta ingresada está dentro del diccionario creado
     if fruta in frutasfda:
         print("Calories:", frutasfda[fruta])
-    else:
-        print("Fruit not found")      #por si no coincide la fruta ingresada
 
 main()
